@@ -1,0 +1,40 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "globals": {
+        "module": true,
+        "require": true,
+        "__dirname": true
+    },
+    "rules": {
+        "no-use-before-define": [
+            "error",
+            {
+                "functions": false,
+                "classes": true
+            }
+        ],
+        "@typescript-eslint/no-use-before-define": [
+            "error",
+            {
+                "functions": false,
+                "classes": true
+            }
+        ],
+        "no-underscore-dangle": "off",
+        "strict": "off"
+    }
+}

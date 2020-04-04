@@ -1,0 +1,18 @@
+.filter-stock-select {
+  width: 50%;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.filter-button {
+  width: 100px;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+}
