@@ -37,7 +37,7 @@
     "react-dom": "^16.8.2",
     "rxjs": "^6.5.4",
     "react-select": "^3.1.0",
-    "plotly.js": "^1.53.0",
+    "plotly.js": "^1.58.5",
     "react-plotlyjs-ts": "2.2.2",
     "react-dates": "^21.8.0",
     "moment": "^2.24.0"
